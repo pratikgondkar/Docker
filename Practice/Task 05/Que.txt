@@ -1,0 +1,12 @@
+"Task1:
+Create docker volume named ""dbvol""
+Run docker container from wordpress image and mount ""dbvol"" to /var/lib/mysql
+Display all docker volumes.
+Create another docker volume named ""testvol""
+Remove docker volume ""testvol""
+
+Task2:
+Create docker volume named opstree-vol
+Create a nginx container.
+Mount the volume ""opstree-vol"" to nginx container with ReadOnly Permission.
+Go and try to edit any file at mounted path in container to ensure the permissions are correct or not."

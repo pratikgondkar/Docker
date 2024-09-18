@@ -1,0 +1,4 @@
+"-Create a account in dockerhub using mail you're mail ID.
+-Once account is created in dokcerhub then create a registry in dockerhub.
+-Now create a docker image using dockerfile and tag the image a/c to you're registry name and push to you're dockerhub registry.
+-Once image is pushed to dokcerhub registry.Share the screenshot of image created locally and image in dockerhub registry in group"

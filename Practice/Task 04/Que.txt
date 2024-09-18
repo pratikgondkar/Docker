@@ -1,0 +1,1 @@
+Create a container and pass 1 env variable with key as team and value as your team name. and print the env inside the container using printenv command. Create a container and pass the environmental variables using a file. and list all the envs inside the container using printenv command.

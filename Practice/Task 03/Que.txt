@@ -1,0 +1,1 @@
+Create a container with your name and assign 2 CPUs to it and 500mb of RAM and then put a load on container and try to check if container exit after 100% utilisation or not. Also share the screenshot of resource utilisation when it is fully utilised as per defined limit of cpu and RAM.

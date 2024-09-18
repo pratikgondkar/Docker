@@ -1,0 +1,6 @@
+"Running your first container : 
+1. Pull Docker Nginx Image. 
+2. List out the images in your system. 
+3. Run all the docker commands without sudo 
+4. Run out a container using Nginx Image and name your conatiner as per you team name in interactive mode.
+5. Run another container of Nginx and name your conatiner as per your name using detached mode."

@@ -1,0 +1,24 @@
+# base image as ubuntu
+FROM ubuntu:latest
+# author
+LABEL maintainer="pratik"
+# update
+RUN apt-get update
+# installing nodejs and npm
+RUN apt install nodejs -y
+RUN apt install npm -y
+# remove node file
+RUN rm /usr/bin/node
+# creating symbolic link
+RUN ln -s /usr/bin/nodejs /usr/bin/node
+#  Trigger a command
+FROM node:14
+RUN npm install -g http-server
+# creating dir
+RUN mkdir -p /usr/apps/hello-docker/
+# web page hosting
+COPY index.html /usr/apps/hello-docker/index.html
+# creating working dir
+WORKDIR /usr/apps/hello-docker/
+# container initialization.
+CMD ["http-server", "-s"]
