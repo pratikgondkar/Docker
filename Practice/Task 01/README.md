@@ -1,8 +1,8 @@
 ## Command
 
 ```
-  docker run -d --name pratham nginx
-  docker run -it --name pratham nginx
+  docker run -d --name pratik nginx
+  docker run -it --name pratik nginx
   docker ps
   docker images
   docker rm container-name
